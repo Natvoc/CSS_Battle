@@ -2,7 +2,7 @@
 
 Solución de desafíos CSS replicando imágenes.
 
-Puede ver el desafío en https://cssbattle.dev/
+Puede ver los desafíos en https://cssbattle.dev/
 
 ## Información General
 
