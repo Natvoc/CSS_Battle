@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #1</title>
+
+    <style>
+ body{
+    background:#6592CF;
+  }
+  
+  .container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    
+  }
+  .puntas{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 135px;      
+    position:absolute;
+    margin-top:-100px;
+  }
+  .uno{
+    width:20px;
+    height:120px;
+    background:#060F55;
+    border-radius:20px;
+  }
+    .dos{
+    width:22px;
+    height:100px;
+    background:#6592CF;
+    border-radius:20px;
+    z-index:100;
+  }
+  .base{
+    width:135px;
+    height:95px;
+    background:#060F55;
+    border-radius:0 0 50% 50%;
+    margin-top:80px;
+   position:absolute;
+  }
+  .soporte{
+    width:20px;
+    height:70px;
+    background:#060F55;
+    margin-top:235px;
+    
+  }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="puntas">
+          <div class="uno"></div>
+          <div class="dos"></div>
+          <div class="uno"></div>
+          <div class="dos"></div>
+          <div class="uno"></div>
+          <div class="dos"></div>
+          <div class="uno"></div>
+        </div> 
+        <div class="base"></div> 
+        <div class="soporte"></div> 
+      </div>
+</body>
+</html>
