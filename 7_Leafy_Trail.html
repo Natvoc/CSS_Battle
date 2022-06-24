@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #1</title>
+
+    <style>
+body{
+    background:#0B2429;
+  }
+  .container{
+    display:flex;
+    justify-content:center;
+    margin-top:75px;
+  }
+  .uno{
+    width:150px;
+    height:150px;
+    background:#1A4341;
+    border-radius:70% 0 65% 0;
+ 	z-index:1;
+    position: absolute;
+    margin-left:-100px;
+  }
+  .dos{
+    width:150px;
+    height:150px;
+    background:#998235;
+     border-radius:70% 0 65% 0;
+    z-index:2;
+    position: absolute;
+    margin-left: -10px;
+  }
+  .tres{
+    width:150px;
+    height:150px;
+    background:#F3AC3C;
+    border-radius:70% 0 65% 0;
+   z-index:3;
+    position: relative;
+    margin-left: 100px
+  }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="uno"></div>
+        <div class="dos"></div>
+        <div class="tres"></div>
+    </div>
+</body>
+</html>
