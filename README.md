@@ -8,4 +8,4 @@ Puede ver los desafíos en https://cssbattle.dev/
 
 El objetivo del juego es escribir HTML/CSS para replicar la imagen de destino dada en el menor código posible.
 
-En cada carpeta se puede encotrar el número de Batalla y en cada una existe un aproximado de 12 desafíos.
+En cada carpeta se puede encotrar el número de Batallas correspondiente.
