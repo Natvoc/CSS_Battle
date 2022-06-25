@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #1</title>
+    <style>
+         body {
+    background: #62306D;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .circulos{
+   margin-top:5.6em;
+    display:flex;
+    align-items:center;
+    width:301px;
+    position:absolute;
+    z-index:100;
+  }
+  .lado{
+    width:100px;
+    height:100px;
+    background:#AA445F;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+  .peq1{
+    width:60px;
+    height:60px;
+    background:#E38F66;
+    border-radius:50%;
+  }
+  .mon{
+    width:100px;
+    height:170px;
+    background:#F7EC7D;
+    margin-bottom:2em;
+    border-radius:10% 10% 0 0;
+  }
+  .centro{
+    width:100px;
+    height:100px;
+    background:#E38F66;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     margin-top:-3em;
+  }
+  .peq2{
+    width:60px;
+    height:60px;
+    background:#AA445F;
+    border-radius:50%;
+  }
+  .base{
+    width:301px;
+    height:120px;
+    background:#F7EC7D;
+    position:relative;
+    z-index:1;
+    margin-top:12em
+  }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="circulos">
+      <div class="lado">
+       <div class="peq1"></div>
+      </div>
+      <div class="mon">
+        <div class="centro">
+          <div class="peq2"></div>
+        </div>
+      </div>
+      <div class="lado">
+       <div class="peq1"></div>
+      </div>
+    </div>
+    <div class="base"></div>
+  </div>
+</body>
+</html>
