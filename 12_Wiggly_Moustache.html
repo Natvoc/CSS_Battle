@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #1</title>
+    <style>
+ body{
+    background:#F5D6B4;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  div{
+    width:100px;
+    height:50px;
+    border:20px solid #D86F45;
+   	border-radius: 110px 110px 0 0;
+    border-bottom:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50px)
+  }
+  span{
+    width: 100px;
+    height: 50px;
+    border: 20px solid #D86F45;
+    border-radius: 0 0 110px 110px;
+    border-top:0;
+    position:absolute;
+    top:calc(50% + 15px);
+  }
+  span:before{
+    content:'';
+    background: #D86F45;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    position:absolute;
+    top:-10;
+  }
+  span:nth-child(1){
+    left:0;
+    transform:translate(-100%, 0)
+  }
+  span:nth-child(1):before{
+    right:60px;
+    top:-12px;
+  }
+  span:nth-child(2){
+    right:0; 
+    transform:translate(100%, 0)
+  }
+  span:nth-child(2):before{
+    right:-20px;
+    top:-10px;
+  }
+
+    </style>
+</head>
+<body>
+    <div>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
