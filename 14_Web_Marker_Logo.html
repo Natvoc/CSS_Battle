@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #2</title>
+    <style>
+        body{
+    background:#F2F2B6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .izquierda{
+    display:flex;
+    position:absolute;
+    margin-left:-110px;
+  }
+  .uno{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+     border-top: 130px solid #FF6D00;
+   position:absolute;
+    z-index:1;
+  }
+  .dos{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+     border-top: 130px solid #FD4602;
+    position:relative;
+    margin-left:20px
+  }
+ 
+  .derecha{
+    display:flex;
+    position:relative;
+    margin-right:-90px
+  }
+  .tres{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+     border-bottom: 130px solid #FF6D00;
+   position:absolute;
+      margin-left:20px
+    
+  }
+  .cuatro{
+    width:0;
+    height:0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+     border-bottom: 130px solid #FD4602;
+    position:relative;
+     z-index:1;
+  }
+
+    </style>
+</head>
+<body>
+    <div class="izquierda">
+        <div class="uno"></div>
+        <div class="dos"></div>
+    </div>
+    <div class="derecha">
+        <div class="tres"></div>
+        <div class="cuatro"></div>
+    </div>
+    
+</body>
+</html>
