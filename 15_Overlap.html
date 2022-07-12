@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #2</title>
+    <style>
+body{
+    background:#09042A;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+  }
+  .left{
+    background:#7B3F61;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute;
+    margin-left:-100px;
+  }
+  .center{
+    background:#09042A;
+    width:80px;
+    height:80px;
+   border-radius:0px 90%; 
+    transform:rotate(45deg);
+    position:relative;
+    z-index:1;
+   
+    
+  }
+  .right{
+    background:#E78481;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    position:absolute;
+    margin-right:-100px;
+  }
+
+    </style>
+</head>
+<body>
+
+    <div class="left"></div>
+    <div class="center"></div>
+    <div class="right"></div>
+    
+</body>
+</html>
