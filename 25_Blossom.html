@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Batte #21</title>
+    <style>
+        body {
+       background: #998235;
+  }
+  .container{
+    display:flex;
+    justify-content:center;
+    margin-top: 40px;
+  }
+  .left{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:20px;
+    margin-left:-20px;
+    
+  }
+  .left-up{
+    width:80px;
+    height:100px;
+    background:#1A4341;
+    border-radius:0px 50px 0px 50px;
+  }
+  .left-down{
+   width:60px;
+    height:80px;
+    background:#F3AC3C;
+    border-radius:50px 0px 50px 0px;
+    transform: rotate(90deg);
+    margin-top:10px;
+  }
+  .right{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+   
+  }
+  .right-up{
+    width:60px;
+    height:80px;
+    background:#F3AC3C;
+    border-radius:0px 50px 0px 50px;
+    transform: rotate(90deg);
+    margin-top:-20px;
+  }
+  .right-down{
+   width:80px;
+    height:100px;
+    background:#1A4341;
+    border-radius:50px 0px 50px 00px;
+    margin-top:10px
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+          <div class="left-up"></div>
+          <div class="left-down"></div>
+        </div>
+        <div class="right">
+              <div class="right-up"></div>
+          <div class="right-down"></div>
+        </div>
+      </div>
+
+</body>
+</html>
